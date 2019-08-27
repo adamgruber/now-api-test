@@ -1,5 +1,6 @@
 export default function(req, res) {
   res.status(200).json({
-    status: 'ok',
+    now: true,
+    status: 200,
   });
 }
